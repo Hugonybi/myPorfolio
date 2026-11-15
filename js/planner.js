@@ -39,12 +39,6 @@
     return `${year}-${month}-${day}`;
   }
 
-  function daysFromToday(offset) {
-    const date = new Date();
-    date.setDate(date.getDate() + offset);
-    return toIsoDate(date);
-  }
-
   function formatDate(isoDate) {
     const [year, month, day] = isoDate.split('-').map(Number);
     return new Date(year, month - 1, day).toLocaleDateString(undefined, {
@@ -85,14 +79,6 @@
 
   /* ---------- Storage (guarded, because browsers can block storage) ---------- */
 
-  function createSeedTasks() {
-    return [
-      { id: makeId(), text: 'Read Chapter 4 of the course textbook', due: daysFromToday(2), done: false },
-      { id: makeId(), text: 'Draft the research proposal outline', due: daysFromToday(5), done: false },
-      { id: makeId(), text: 'Publish the portfolio website', due: '', done: true },
-    ];
-  }
-
   function isStoredTask(item) {
     return item !== null && typeof item === 'object' && typeof item.id === 'string' && typeof item.text === 'string';
   }
@@ -111,11 +97,11 @@
     try {
       raw = window.localStorage.getItem(STORAGE_KEY);
     } catch (error) {
-      return createSeedTasks(); // storage is blocked: work in memory for this visit
+      return []; // storage is blocked: work in memory for this visit
     }
 
     if (raw === null) {
-      return createSeedTasks(); // first visit: show a few examples
+      return []; // first visit: start with an empty list
     }
 
     try {
