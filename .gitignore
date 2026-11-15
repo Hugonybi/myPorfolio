@@ -1,0 +1,11 @@
+# Local preview configuration
+.claude/
+.antigravity/
+.codex
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.claue

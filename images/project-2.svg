@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="Portfolio home page mockup">
+  <defs>
+    <linearGradient id="hero-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#13294b"/>
+      <stop offset="1" stop-color="#0f766e"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="400" fill="#f5f7fa"/>
+  <rect width="640" height="52" fill="#13294b"/>
+  <rect x="24" y="19" width="92" height="14" rx="7" fill="#ffffff"/>
+  <rect x="380" y="21" width="36" height="10" rx="5" fill="#cbd5e1"/>
+  <rect x="428" y="21" width="44" height="10" rx="5" fill="#cbd5e1"/>
+  <rect x="484" y="21" width="52" height="10" rx="5" fill="#cbd5e1"/>
+  <rect x="548" y="21" width="60" height="10" rx="5" fill="#99f6e4"/>
+
+  <rect x="24" y="72" width="592" height="160" rx="16" fill="url(#hero-grad)"/>
+  <rect x="56" y="104" width="220" height="18" rx="9" fill="#ffffff"/>
+  <rect x="56" y="134" width="300" height="10" rx="5" fill="#cbd5e1"/>
+  <rect x="56" y="154" width="260" height="10" rx="5" fill="#cbd5e1"/>
+  <rect x="56" y="186" width="116" height="28" rx="14" fill="#5eead4"/>
+  <circle cx="512" cy="152" r="50" fill="#dbeafe" fill-opacity="0.9"/>
+  <circle cx="512" cy="140" r="18" fill="#13294b" fill-opacity="0.55"/>
+  <path d="M482 204c4-22 14-30 30-30s26 8 30 30z" fill="#13294b" fill-opacity="0.55"/>
+
+  <rect x="24" y="252" width="184" height="128" rx="12" fill="#ffffff" stroke="#d9dee7"/>
+  <rect x="25" y="253" width="182" height="52" fill="#e6f4f1"/>
+  <rect x="40" y="318" width="120" height="10" rx="5" fill="#13294b"/>
+  <rect x="40" y="336" width="150" height="8" rx="4" fill="#cbd5e1"/>
+  <rect x="40" y="352" width="100" height="8" rx="4" fill="#cbd5e1"/>
+
+  <rect x="228" y="252" width="184" height="128" rx="12" fill="#ffffff" stroke="#d9dee7"/>
+  <rect x="229" y="253" width="182" height="52" fill="#eef3f8"/>
+  <rect x="244" y="318" width="120" height="10" rx="5" fill="#13294b"/>
+  <rect x="244" y="336" width="150" height="8" rx="4" fill="#cbd5e1"/>
+  <rect x="244" y="352" width="100" height="8" rx="4" fill="#cbd5e1"/>
+
+  <rect x="432" y="252" width="184" height="128" rx="12" fill="#ffffff" stroke="#d9dee7"/>
+  <rect x="433" y="253" width="182" height="52" fill="#fef3c7"/>
+  <rect x="448" y="318" width="120" height="10" rx="5" fill="#13294b"/>
+  <rect x="448" y="336" width="150" height="8" rx="4" fill="#cbd5e1"/>
+  <rect x="448" y="352" width="100" height="8" rx="4" fill="#cbd5e1"/>
+</svg>
